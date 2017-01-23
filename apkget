@@ -14,10 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#@About: Get an APK (optionally with DEX) from device.
+#@About: Pull or search for a package on a device.
 #@Author: Jake Valletta (jakev)
 #@Health: stable
-#@Version: 1.1
+#@Version: 1.1.0
 
 . $DTF_CORE
 . $DTF_LOG

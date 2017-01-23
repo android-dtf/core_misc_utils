@@ -1,0 +1,88 @@
+<Items>
+    <Item type="module"
+          name="apkget"
+          version="1.1.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Pull or search for a package on the device."
+          localName="apkget" />
+
+    <Item type="module"
+          name="app2jar"
+          version="1.0.0"
+          health="beta"
+          author="Jake Valletta (jakev)"
+          about="Convert a application DEX to a Java JAR."
+          localName="app2jar" />
+
+    <Item type="module"
+          name="autosign"
+          version="1.1.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Quickly sign an APK."
+          localName="autosign" />
+
+    <Item type="module"
+          name="framework2jar"
+          version="1.1.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Convert a framework DEX JAR to a Java JAR for importing into Eclipse."
+          localName="framework2jar" />
+
+    <Item type="module"
+          name="mkaosp"
+          version="1.1.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Generates data needed for comparing projects."
+          localName="mkaosp" />
+
+    <Item type="module"
+          name="process-all"
+          version="1.0.0"
+          health="beta"
+          author="Jake Valletta (jakev)"
+          about="Attempts to perform all preprocessing."
+          localName="process-all" />
+
+    <Item type="module"
+          name="resetserial"
+          version="1.0.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Reset the serial to the currently conencted device."
+          localName="resetserial" />
+
+    <Item type="module"
+          name="screencap"
+          version="1.0.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Take screenshot from device."
+          localName="screencap" />
+
+    <Item type="module"
+          name="secretcode"
+          version="1.1.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Send an android_secret_code broadcast."
+          localName="secretcode" />
+
+    <Item type="module"
+          name="testperm"
+          version="1.0.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Just a sample permissions and uses-permission generator."
+          localName="testperm" />
+
+    <Item type="package"
+          name="Autosign"
+          version="1.0.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          localName="Autosign" />
+</Items>

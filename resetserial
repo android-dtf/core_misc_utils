@@ -17,7 +17,7 @@
 #@About: Reset the serial to the currently connected device.
 #@Author: Jake Valletta (jakev)
 #@Health: stable
-#@Version: 1.0
+#@Version: 1.0.0
 
 echo "Please connect the test device, and only the test device (press any key to continue) "
 read _

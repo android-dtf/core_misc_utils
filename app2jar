@@ -17,7 +17,7 @@
 #@About: Convert a application DEX to a Java JAR.
 #@Author: Jake Valletta (jakev)
 #@Health: beta
-#@Version: 1.0
+#@Version: 1.0.0
 
 . $DTF_CORE
 . $DTF_LOG

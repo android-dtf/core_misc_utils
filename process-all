@@ -17,7 +17,7 @@
 #@About: Attempts to perform all preprocessing.
 #@Author: Jake Valletta (jakev)
 #@Health: beta
-#@Version: 1.0
+#@Version: 1.0.0
 
 . $DTF_CORE
 . $DTF_LOG

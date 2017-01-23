@@ -17,7 +17,7 @@
 #@About: Just a sample <permissions> and <uses-permission> generator.
 #@Author: Jake Valletta (jakev)
 #@Health: stable
-#@Version: 1.0
+#@Version: 1.0.0
 
 PERM=com.jakev.MYPERM
 
