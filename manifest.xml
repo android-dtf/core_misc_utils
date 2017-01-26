@@ -79,6 +79,14 @@
           about="Just a sample permissions and uses-permission generator."
           localName="testperm" />
 
+    <Item type="module"
+          name="usesperm"
+          version="1.0.0"
+          health="stable"
+          author="Jake Valletta (jakev)"
+          about="Just a sample uses-permission generator."
+          localName="usesperm" />
+
     <Item type="package"
           name="Autosign"
           version="1.0.0"
