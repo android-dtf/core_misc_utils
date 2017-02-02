@@ -24,7 +24,7 @@
 
 usage()
 {
-    echo "Usage apkget OPTIONS <package_name>"
+    echo "Usage: apkget OPTIONS <package_name>"
     echo "       OPTIONS:"
     echo "            -o    Pull package's ODEX"
     echo "            -s    Search for package"
