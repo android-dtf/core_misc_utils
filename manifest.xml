@@ -57,7 +57,7 @@
 
     <Item type="module"
           name="screencap"
-          version="1.0.0"
+          version="1.0.1"
           health="stable"
           author="Jake Valletta (jakev)"
           about="Take screenshot from device."

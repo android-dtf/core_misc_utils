@@ -17,14 +17,14 @@
 #@About: Take screenshot from device.
 #@Author: Jake Valletta (jakev)
 #@Health: stable
-#@Version: 1.0.0
+#@Version: 1.0.1
 
-. $DTF_LOG
+. "$DTF_LOG"
 
 if [ ! -z "$1" ]; then
     output="${1}.png"
 else
-    output=screen.png
+    output=screenshot_$(date +%Y-%m-%d_%H:%M-%S).png
 fi
 
 log_d "Saving screenshot: ${output}"
@@ -33,4 +33,6 @@ log_i "Waiting for device..."
 adb wait-for-device
 log_i "Connected!"
 
-adb shell screencap -p | sed 's/\r$//' > "${output}"
+mkdir -p screenshots
+
+adb shell screencap -p | sed 's/\r$//' > "screenshots/${output}"
